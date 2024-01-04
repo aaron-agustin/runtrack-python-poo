@@ -6,12 +6,14 @@ class Livre:
     
     def getTitre(self):
         print(f"Le titre du livre est: {self.__titre}")
+        
         return self.__titre
     def getAuteur(self):
         print(f"L'auteur de ce livre est: {self.__auteur}")
         return self.__auteur
     def getNombrePages(self):
         print(f"Nombre de pages: {self.__nombrePages}")
+        
         return self.__nombrePages
     
     def setTitre(self, titre):
@@ -26,8 +28,10 @@ class Livre:
             
 mon_livre = Livre("Le Petit Prince", "Antoine de Saint-Exupéry", 93)
 mon_livre.getAuteur()
-mon_livre.getTitre()
-mon_livre.getNombrePages()
+
+
+
+
 mon_livre.setNombrePages(155)
 mon_livre.getNombrePages()
 mon_livre.setNombrePages(3.5)

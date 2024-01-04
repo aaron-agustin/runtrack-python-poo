@@ -37,10 +37,7 @@ class Student:
             return "Très bien"
         elif self.get_credit_amount() >= 70:
             return "Bien"
-        elif self.get_credit_amount() >= 60:
-            return "Passable"
-        else:
-            return "Insuffisant"
+   
     
             
 etudiant = Student("Doe", "Jhon", 145)
